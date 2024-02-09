@@ -7,6 +7,9 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+[![R-CMD-check](https://github.com/jdhoffa/wakastudio/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jdhoffa/wakastudio/actions/workflows/R-CMD-check.yaml)
+[![Codecov test
+coverage](https://codecov.io/gh/jdhoffa/wakastudio/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jdhoffa/wakastudio?branch=main)
 <!-- badges: end -->
 
 The goal of wakastudio is to provide a seemless integration between
