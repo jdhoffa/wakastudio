@@ -17,17 +17,17 @@ knitr::opts_chunk$set(
 
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![CRAN status](https://www.r-pkg.org/badges/version/wakastudio)](https://CRAN.R-project.org/package=wakastudio)
 <!-- badges: end -->
 
-The goal of wakastudio is to ...
+The goal of wakastudio is to provide a seemless integration between RStudio and WakaTime. [WakaTime](https://wakatime.com/) is a time tracking tool for programmers. It tracks the time you spend in your code editor and logs the data to your WakaTime dashboard. This package provides a set of functions to interact with the WakaTime API.
 
 ## Installation
 
-You can install the development version of wakastudio like so:
+You can install the development version of wakastudio from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("pak")
+pak::pak("jdhoffa/wakastudio")
 ```
 
 ## Example
@@ -46,11 +46,3 @@ summary(cars)
 ```
 
 You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-```{r pressure, echo = FALSE}
-plot(pressure)
-```
-
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
